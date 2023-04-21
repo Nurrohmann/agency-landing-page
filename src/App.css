@@ -1,0 +1,149 @@
+* {
+   font-family: "Roboto", sans-serif;
+   padding: 0;
+   margin: 0;
+}
+
+.nav-container {
+   display: flex;
+   justify-content: space-between;
+   padding: 2% 10%;
+   background-color: #0f124d;
+}
+
+.nav-items1 {
+   gap: 120px;
+   display: flex;
+   align-items: center;
+}
+
+.nav-items1 > a {
+   color: #ffffff;
+   font-size: 20px;
+   text-decoration: none;
+}
+
+.nav-items2 {
+   display: flex;
+   align-items: center;
+}
+
+.nav-items2 a {
+   color: #fdc221;
+   font-size: 17px;
+}
+
+.items1 {
+   display: flex;
+   gap: 30px;
+}
+
+.items1 a {
+   color: #ffff;
+   font-size: 14px;
+   text-decoration: none;
+}
+
+.hero-container {
+   display: flex;
+   padding: 2% 1% 0 10%;
+   background-color: #0f124d;
+}
+
+.hero-items1 {
+   padding-top: 5%;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.hero-items1 h1 {
+   font-size: xx-large;
+   font-weight: lighter;
+   color: #ffffff;
+}
+
+.hero-items1 > h1 .span {
+   color: #fdc221;
+}
+
+.hero-items1 p {
+   color: #ffff;
+}
+
+.hero-items1 .lorem {
+   display: flex;
+   gap: 100px;
+}
+
+.hero-items1 .button {
+   margin-top: 10%;
+   color: #ffffff;
+   font-size: medium;
+   font-weight: bold;
+   width: 30%;
+   background-color: #f79e0e;
+   border: none;
+   padding: 3%;
+   border-radius: 50px;
+}
+
+.parent {
+   background-color: #f5f6fb;
+}
+
+.expert-container {
+   background-image: url("./src/assets/wave.svg");
+   object-fit: cover;
+   display: flex;
+   gap: 100px;
+   padding: 5% 5% 0% 5%;
+}
+
+.expert-container .expert-items2 {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding: 0 3%;
+}
+
+.expert-items2 .expert {
+   color: #f79e0e;
+}
+
+.expert-items2 h4 {
+   font-size: 35px;
+}
+
+.expert-items2 h4 .span {
+   color: #f79e0e;
+}
+
+.expert-items2 .there {
+   color: #979797;
+}
+
+.expert-items2 .lorem {
+   display: flex;
+   gap: 100px;
+}
+
+.lorem .lorem1 {
+   display: flex;
+   flex-direction: column;
+}
+
+.lorem .lorem2 {
+   display: flex;
+   flex-direction: column;
+}
+
+.expert-items2 .button {
+   width: 30%;
+   background-color: #f79e0e;
+   border: none;
+   padding: 3%;
+   border-radius: 5px;
+   color: #ffffff;
+   margin-top: 5%;
+}
