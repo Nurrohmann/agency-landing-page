@@ -32,7 +32,6 @@ function Expert() {
                </div>
                <button className='button'>Read More</button>
             </div>
-            <img src='./src/assets/wave.svg' alt='' />
          </div>
       </div>
    );

@@ -3,6 +3,7 @@ import Nav from "../component/Nav";
 import Hero from "../component/Hero";
 import Expert from "../component/Expert";
 import Wave from "../component/Wave";
+import Offer from "../component/Offer";
 
 function Combine() {
    return (
@@ -11,6 +12,7 @@ function Combine() {
          <Hero />
          <Expert />
          <Wave />
+         <Offer />
       </div>
    );
 }
