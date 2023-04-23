@@ -12,40 +12,52 @@ function Offer() {
             <div className='offer-items2 '>
                <div className='items2'>
                   <h2>Simplify</h2>
-                  <div>
-                     <p>$</p>
-                     <p>299</p>
+                  <div className='salary'>
+                     <p className='dolar'>
+                        <strong>$</strong>
+                     </p>
+                     <p className='p'>
+                        <strong> 299</strong>
+                     </p>
                   </div>
                   <p>In This Package</p>
                   <img src='./src/assets/lorem5.svg' alt='' />
-                  <div>
-                     <button>Buy Now</button>
+                  <div className='button-container'>
+                     <button className='button'>Buy Now</button>
                   </div>
                </div>
                <div className='items3'>
-                  <p>Most Popular</p>
+                  <p className='most'>Most Popular</p>
                   <h2>Bledify</h2>
-                  <div>
-                     <p>$</p>
-                     <p>399</p>
+                  <div className='salary'>
+                     <p className='dolar'>
+                        <strong>$</strong>
+                     </p>
+                     <p className='p'>
+                        <strong>399</strong>
+                     </p>
                   </div>
                   <p>In This Package</p>
                   <img src='./src/assets/lorem3.svg' alt='' />
-                  <div>
-                     <button>Buy Now</button>
+                  <div className='button-container'>
+                     <button className='button'>Buy Now</button>
                   </div>
                </div>
                <div className='items4'>
-                  <p>Recomended</p>
+                  <p className='recomended'>Recomended</p>
                   <h2>Rockify</h2>
-                  <div>
-                     <p>$</p>
-                     <p>499</p>
+                  <div className='salary'>
+                     <p className='dolar'>
+                        <strong>$</strong>
+                     </p>
+                     <p className='p'>
+                        <strong>499</strong>
+                     </p>
                   </div>
                   <p>In This Package</p>
                   <img src='./src/assets/lorem4.svg' alt='' />
-                  <div>
-                     <button>Buy Now</button>
+                  <div className='button-container'>
+                     <button className='button'>Buy Now</button>
                   </div>
                </div>
             </div>
