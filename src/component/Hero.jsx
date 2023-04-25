@@ -14,13 +14,13 @@ function Hero() {
                enim ad minim veniam Lorem ipsum dolor sit amet.
             </p>
             <div className='lorem'>
-               <img src={"../assets/lorem.svg"} alt='' />
+               <img src='../assets/lorem.svg' alt='' />
                <img src='../assets/lorem.svg' alt='' />
             </div>
             <button className='button'>Get Started</button>
          </div>
          <div className='hero-items2'>
-            <img src='./src/assets/rocket.png' alt='' />
+            <img src={"/assets/rocket.png"} alt='' />
          </div>
       </div>
    );
