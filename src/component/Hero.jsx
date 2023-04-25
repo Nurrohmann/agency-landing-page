@@ -14,7 +14,7 @@ function Hero() {
                enim ad minim veniam Lorem ipsum dolor sit amet.
             </p>
             <div className='lorem'>
-               <img src='../assets/lorem.svg' alt='' />
+               <img src={"../assets/lorem.svg"} alt='' />
                <img src='../assets/lorem.svg' alt='' />
             </div>
             <button className='button'>Get Started</button>
