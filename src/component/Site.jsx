@@ -10,6 +10,11 @@ function Site() {
                Our product have all nature ingredients that satisfy all your
                needs
             </p>
+            <div className='img-container'>
+               <img src='./src/assets/organic.svg' alt='' />
+               <img src='./src/assets/high.svg' alt='' />
+               <img src='./src/assets/best.svg' alt='' />
+            </div>
          </div>
       </div>
    );

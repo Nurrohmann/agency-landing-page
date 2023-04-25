@@ -6,6 +6,8 @@ import Expert from "../component/Expert";
 import Offer from "../component/Offer";
 import Ads from "../component/Ads";
 import Site from "../component/Site";
+import Faq from "../component/Faq";
+import Subscribe from "../component/Subscribe";
 
 function Combine() {
    return (
@@ -17,6 +19,8 @@ function Combine() {
          <Offer />
          <Ads />
          <Site />
+         <Faq />
+         <Subscribe />
       </div>
    );
 }

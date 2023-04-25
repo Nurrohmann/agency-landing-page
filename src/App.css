@@ -441,3 +441,18 @@
 .site-container .site-items1 .p2 {
    color: #979797;
 }
+
+.site-container .img-container {
+   padding: 5% 3%;
+   display: flex;
+   gap: 50px;
+}
+
+.faq-container {
+   margin: 5% 0;
+}
+
+.faq-container .faq-items {
+   display: flex;
+   justify-content: center;
+}
