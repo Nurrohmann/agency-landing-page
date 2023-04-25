@@ -4,7 +4,7 @@ function Faq() {
    return (
       <div className='faq-container'>
          <div className='faq-items'>
-            <img src='./src/assets/faq.svg' alt='' />
+            <img src={"./image/faq.svg"} alt='' />
          </div>
       </div>
    );

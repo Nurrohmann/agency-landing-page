@@ -21,7 +21,7 @@ function Offer() {
                      </p>
                   </div>
                   <p>In This Package</p>
-                  <img src='./src/assets/lorem5.svg' alt='' />
+                  <img src={"./image/lorem5.svg"} alt='' />
                   <div className='button-container'>
                      <button className='button'>Buy Now</button>
                   </div>
@@ -38,7 +38,7 @@ function Offer() {
                      </p>
                   </div>
                   <p>In This Package</p>
-                  <img src='./src/assets/lorem3.svg' alt='' />
+                  <img src={"./image/lorem3.svg"} alt='' />
                   <div className='button-container'>
                      <button className='button'>Buy Now</button>
                   </div>
@@ -55,7 +55,7 @@ function Offer() {
                      </p>
                   </div>
                   <p>In This Package</p>
-                  <img src='./src/assets/lorem4.svg' alt='' />
+                  <img src={"./image/lorem4.svg"} alt='' />
                   <div className='button-container'>
                      <button className='button'>Buy Now</button>
                   </div>

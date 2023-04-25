@@ -5,7 +5,7 @@ function Expert() {
       <div className='parent'>
          <div className='expert-container'>
             <div className='expert-items1'>
-               <img src='./src/assets/computer.png' alt='' />
+               <img src={"./image/computer.png"} alt='' />
             </div>
             <div className='expert-items2'>
                <p className='expert'>Expert store designing</p>
@@ -20,20 +20,20 @@ function Expert() {
                </p>
                <div className='lorem'>
                   <div className='lorem1'>
-                     <img src='./src/assets/lorem2.svg' alt='' />
-                     <img src='./src/assets/lorem2.svg' alt='' />
-                     <img src='./src/assets/lorem2.svg' alt='' />
+                     <img src={"./image/lorem2.svg"} alt='' />
+                     <img src={"./image/lorem2.svg"} alt='' />
+                     <img src={"./image/lorem2.svg"} alt='' />
                   </div>
                   <div className='lorem2'>
-                     <img src='./src/assets/lorem2.svg' alt='' />
-                     <img src='./src/assets/lorem2.svg' alt='' />
-                     <img src='./src/assets/lorem2.svg' alt='' />
+                     <img src={"./image/lorem2.svg"} alt='' />
+                     <img src={"./image/lorem2.svg"} alt='' />
+                     <img src={"./image/lorem2.svg"} alt='' />
                   </div>
                </div>
                <button className='button'>Read More</button>
             </div>
          </div>
-         <img src='./src/assets/wave.svg' alt='' />
+         <img src={"./image/wave.svg"} alt='' />
       </div>
    );
 }
