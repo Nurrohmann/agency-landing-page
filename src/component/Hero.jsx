@@ -20,7 +20,7 @@ function Hero() {
             <button className='button'>Get Started</button>
          </div>
          <div className='hero-items2'>
-            <img src={"/public/image/rocket.png"} alt='' />
+            <img src={"./image/rocket.png"} alt='' />
          </div>
       </div>
    );
