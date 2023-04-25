@@ -456,3 +456,54 @@
    display: flex;
    justify-content: center;
 }
+
+.subscribe-container {
+   margin-top: 10%;
+   padding: 2%;
+   background-color: #f5f6fb;
+}
+
+.subscribe-container .subscribe-items {
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   align-items: center;
+   gap: 30px;
+   padding: 0 28%;
+}
+
+.subscribe-container .subscribe-items .p1 {
+   color: #f79e0e;
+}
+
+.subscribe-container .subscribe-items .subscribe {
+   font-weight: 900;
+}
+
+.subscribe-container .subscribe-items .p2 {
+   text-align: center;
+}
+
+.subscribe-items .input {
+   display: flex;
+   justify-content: center;
+}
+
+.subscribe-items .input input {
+   padding: 6% 8%;
+   font-size: large;
+   color: #979797;
+   border: px solid #979797;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+}
+
+.subscribe-items .input button {
+   font-size: large;
+   padding: 6% 8%;
+   border: none;
+   background-color: #f79e0e;
+   color: white;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
